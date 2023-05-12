@@ -13,7 +13,7 @@ header {
     height: 22vh;
 
     background-size: 100%;
-    background-color: #ffffff;
+    background-color: white;
 
     color: ;
     font-family: 'Times New Roman', Times, serif;
@@ -203,4 +203,148 @@ footer {
 
 
 
-Definida as dimensões e estilizações respectivas da responsividade.
+@media screen and (max-width: 751px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 465px;
+    }
+
+    .log-hea,
+    .lin-hea {
+        height: 98%;
+        width: 30%;
+    }
+
+    .nav1,
+    .nav2,
+    .nav3 {
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+
+    }
+
+    .sec1,
+    .sec2,
+    .sec3 {
+        margin: 0;
+        margin-top: 2vh;
+    }
+
+    .tex-div1,
+    .tex-div2,
+    .tex-div3 {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .img-nav1-sec1 {
+        width: 95vw;
+        margin-left: 1vw;
+
+    }
+
+    .leg-nav1,
+    .leg-nav2,
+    .leg-nav3 {
+        display: none;
+
+    }
+
+    footer {
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+    }
+
+    .log-foo {
+        height: 34%;
+        width: 45%;
+    }
+
+    .red-soc {
+
+        height: 12%;
+        width: 35%;
+    }
+
+    #name,
+    #number,
+    #email {
+        background-color: green;
+        border-radius: 10px;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+    }
+
+    .log-hea,
+    .lin-hea {
+        height: 98%;
+        width: 30%;
+    }
+
+    .nav1,
+    .nav2,
+    .nav3 {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+
+    }
+
+    .sec1,
+    .sec2,
+    .sec3 {
+        margin: 0;
+        margin-top: 2vh;
+    }
+
+    .tex-div1,
+    .tex-div2,
+    .tex-div3 {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .img-nav1-sec1 {
+        width: 98vw;
+        margin-left: 1vw;
+
+    }
+
+    .leg-nav1,
+    .leg-nav2,
+    .leg-nav3 {
+        display: none;
+
+    }
+
+    footer {
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+    }
+
+    .log-foo {
+        height: 21%;
+        width: 45%;
+    }
+
+    .red-soc {
+
+        height: 14%;
+        width: 35%;
+    }
+}
