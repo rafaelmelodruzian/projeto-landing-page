@@ -1,4 +1,3 @@
-PERGUNTAÇAS USADAS PARA AJUDAR DEFINIÇÕES DO PROJETO
 Segue algumas perguntas para te ajudar a pensar nos elementos básicos do seu site, anote as respostas em algum lugar, pois você vai precisar delas durante a construção da sua landing page:
 
 1. Qual é a empresa fictícia que será utilizada na página?
