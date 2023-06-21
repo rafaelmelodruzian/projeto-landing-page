@@ -13,9 +13,8 @@ header {
     height: 22vh;
 
     background-size: 100%;
-    background-color: white;
+    background-color: #ffffff;
 
-    color: ;
     font-family: 'Times New Roman', Times, serif;
     z-index: 100vh;
 }
@@ -29,7 +28,7 @@ header {
 .lin-hea:hover {
     height: 80%;
     width: 20%;
-    border: 2px solid #008000;
+    border: 2px solid black;
     border-radius: 10px;
 }
 
@@ -126,14 +125,14 @@ footer {
 }
 
 .red-soc {
-    width: 10%;
-    height: 50%;
+    width: 500%;
+    height: 100%;
 }
 
 .red-soc:hover {
     height: 80%;
     width: 10%;
-    border: 2px solid #008000;
+    border: 5px solid yellow
     border-radius: 10px;
 }
 
@@ -152,7 +151,7 @@ footer {
 #btn {
     color: #FF7E00;
     font-size: 20pt;
-    background-color: #008000;
+    background-color:black;
     border-radius: 10px;
 }
 
